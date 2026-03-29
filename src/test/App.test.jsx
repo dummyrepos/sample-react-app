@@ -4,7 +4,7 @@ import App from '../App'
 describe('App', () => {
   it('renders the Get started heading', () => {
     render(<App />)
-    expect(screen.getByRole('heading', { name: /get started/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /getting started/i })).toBeInTheDocument()
   })
 
   it('renders the counter button starting at 0', () => {
