@@ -12,6 +12,8 @@ jobs:
         steps:
             - name: get the code
               uses: actions/checkout@v6
+            - name: install depdendencies
+              run: npm install
             - name: run the build
               run: npm run build
             - name: run the tests
